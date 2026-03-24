@@ -1,4 +1,6 @@
 import { Shield, Award, PenTool, Zap, Wrench, ThermometerSnowflake } from 'lucide-react';
+import sobreImage1 from '../assets/sobreimage1.webp';
+import sobreImage2 from '../assets/sobreimage2.webp';
 
 export const config = {
   company: {
@@ -29,7 +31,7 @@ export const config = {
       reviewsCount: "500+",
     },
     images: {
-      background: "/imagens/foto_instalacao5_depois.png",
+      background: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop",
       avatars: [
         "https://i.pravatar.cc/100?img=11",
         "https://i.pravatar.cc/100?img=12",
@@ -47,8 +49,8 @@ export const config = {
       satisfaction: "98%"
     },
     images: {
-      main: "/imagens/foto_instalacao.png",
-      secondary: "/imagens/foto_instalacao2.png"
+      main: sobreImage1,
+      secondary: sobreImage2
     }
   },
   trustSignals: {
@@ -108,10 +110,10 @@ export const config = {
     "/imagens/foto_instalacao2.png",
     "/imagens/foto_instalacao3.png",
     "/imagens/foto_instalacao4.png",
-    "/imagens/foto_instalacao5_depois.png",
-    "/imagens/foto_limpeza_depois.png",
     "/imagens/foto_instalacao5_antes.png",
-    "/imagens/foto_limpeza_antes.png"
+    "/imagens/foto_instalacao5_depois.png",
+    "/imagens/foto_limpeza_antes.png",
+    "/imagens/foto_limpeza_depois.png"
   ],
   testimonials: {
     aggregate: {
